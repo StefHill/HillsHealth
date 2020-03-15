@@ -70,3 +70,11 @@ P1: Social media where possible
 ### Approach
 ### Implementation
 
+## Legal and Compliance View
+### Statutory Regulation
+### Privacy and Data Regulation
+
+## Accessibility View
+### Approach
+### External Dependencies
+
