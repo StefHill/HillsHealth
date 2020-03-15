@@ -15,3 +15,9 @@ G1: Create summarised and paraphrased medical papers on key health topics
 G2: Display the output in a short video or graphic.
 
 P1: Social media where possible
+
+# Dependencies
+
+# Goals
+## Goals for this Work
+## Goals beyond this Work
