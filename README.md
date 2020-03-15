@@ -1,4 +1,5 @@
-# Architectural Definition - Medical Trials Summarised and Simplified
+# Architectural Definition
+### Medical Trials Summarised and Simplified
 
 ## Introduction
 
