@@ -16,8 +16,57 @@ G2: Display the output in a short video or graphic.
 
 P1: Social media where possible
 
-# Dependencies
+## Dependencies
 
-# Goals
-## Goals for this Work
-## Goals beyond this Work
+## Goals
+### Goals for this Work
+### Goals beyond this Work
+
+## Business Context
+### Problem Definition
+
+## Business Process Scope
+### Out of Scope
+## Critical Success Factors
+
+## Design Principles and Approach
+### Functional View
+### Use Case Model
+### System Use Cases
+
+## Application View
+### Packages and Components
+#### Interfaces
+##### Upstream Dependencies
+##### Downstream Dependencies
+
+## Deployment Approach
+### Approach
+### Technology Dependencies
+### People and Skill Dependencies
+### Environments
+### Automation and Operations
+### Sizing and Capacity
+
+## Information View
+### Conceptual Data Model
+### Data Quality and Timeliness
+### Volumes
+### Transactional Management and Recovery
+### Ownership and Governance
+### Data Lifecycle
+
+## Operations View
+### Setup and Maintenance
+#### Migrations
+
+## Monitoring
+### Availability, Resilience and Recovery
+#### Planned Downtime
+#### Unplanned Downtime
+#### Disaster Recovery
+
+## Security View
+### Approach
+### Implementation
+
