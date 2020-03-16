@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The solution architecture defines the entirety of the environment that is exclusively for the support of the developed product.  The design intention for the solution is to build and deliver a product that will provide sumarised and simplified medical information. 
+The solution architecture defines the entirety of the environment that is exclusively for the support of the developed product.  The design intention for the solution is to build and deliver a product that will provide summarised and simplified medical information. 
 
 ## Scope
 
@@ -12,7 +12,7 @@ G1: Create summarised and paraphrased medical papers on key health topics
 
 G2: Display the output via social-media sites in a short video or graphic.
 
-P1: Provide automation where ever possible
+P1: Provide automation wherever possible
 
 ## Dependencies
 
@@ -20,7 +20,7 @@ Access to medical papers
 
 ## Goals
 
-Goals are defined in two perspectives; firstly, the immediate goals of this work; secondly, the goal that is enabled on a succesful outcome of this work.
+Goals are defined in two perspectives; firstly, the immediate goals of this work; secondly, the goal that is enabled on a successful outcome of this work.
 
 ### Goals for this Work
 
@@ -28,14 +28,14 @@ In this work, we will build a medical trial snapshot (that is, a process that wi
 
 ### Goals beyond this Work
 
-A succesful outcome of this work will enable us to expand into further areas of health and medical research, and present complex medical information in a simplified yet targeted manner.  The goal is to provide the 'gold standard' of health and medical information, namely peer-reviewed medical trials, to a non-academic and online audience.
+A successful outcome of this work will enable us to expand into further areas of health and medical research, and present complex medical information in a simplified yet targeted manner.  The goal is to provide the 'gold standard' of health and medical information, namely peer-reviewed medical trials, to a non-academic and online audience.
 
 ## Business Context
 
 The project will deliver the following capabilities
 1. A medical paper summariser
 2. A medical paper paraphraser
-3. Automated visualisation in support of the output fom 1 and 2.
+3. Automated visualisation in support of the output from 1 and 2.
 
 ### Problem Definition
 
