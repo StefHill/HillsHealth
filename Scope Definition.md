@@ -18,7 +18,7 @@ Currently the existing website does not offer customers the opportunity to manag
 
 A secure website portal (My Account) is required to enable customers to self-service and manage their accounts online without the need to contact the Customer Services Team.  This will result in a reduction in the number of Customer Services calls received.
 
-Following the launch of the new BAYV website in Dec 2016, further improvements are required to enhance the functionality of the website in line with our competitor sites.
+Following the launch of the new x website in Dec 2016, further improvements are required to enhance the functionality of the website in line with our competitor sites.
 
 
 #### Problem/Opportunity Statement
@@ -28,12 +28,12 @@ The volume of non-value add calls within Customer Services are too high, (approx
 
 
 ### Business Objectives
-|Ref | Title	Description|
-|---|---|
-|BOJ01 |	Improved website functionality	Increase website functionality to allow customers to self-serve 24/7 via a My Account secure facility.|
-|BOJ02 |	Process optimisation – Customer Services.  Remove non-value add steps from the Customer Services Team by reducing the call volume.|
-|BOJ03 |	Customer online account management	Allow customers to manage their BAYV account online with the facility to check balance information make payments, raise service and meter calls.| 
-|BOJ04 |	Sales Process - My Account set up	Optional ‘my account’ set up as part of the online sales process.|
+|Ref | Title|	Description|
+|---|---|---|
+|BOJ01 |	Improved website functionality |	Increase website functionality to allow customers to self-serve 24/7 via a My Account secure facility.|
+|BOJ02 |	Process optimisation – Customer Services. | Remove non-value add steps from the Customer Services Team by reducing the call volume.|
+|BOJ03 |	Customer online account management|	Allow customers to manage their x account online with the facility to check balance information make payments, raise service and meter calls.| 
+|BOJ04 |	Sales Process - My Account set up|	Optional ‘my account’ set up as part of the online sales process.|
 
 
 ### Critical Success Factors
@@ -48,10 +48,10 @@ The volume of non-value add calls within Customer Services are too high, (approx
 
 ### Key Assumptions
 - Customers will be required to set up ‘My Account’ as part of the online sales process.
-- Customers will be required to set up a Direct Debit [DD] as part of the online sales process. 
+- Customers will be required to set up a Direct Debit as part of the online sales process. 
 - My account ‘customer requests’ will feed into the appropriate system for internal action.
 - Live customer data will be accurate.
-- BAYV Website and internal system changes can be made within the project timescale.
+- x Website and internal system changes can be made within the project timescale.
 - Changes to internal processes can be designed/communicated/trained within the business.
 - Resource is available for all aspects of the project.
 - Funding is available for the project.
