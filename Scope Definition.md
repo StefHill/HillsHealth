@@ -112,23 +112,23 @@ Further enhancements scoped for phase 2 and 3 ie Downloading documents, viewing 
 |FR13|	Oracle	Information held in Oracle will be made available to the customer on the website.|	M|	FR02 – FR11|
 
 ### High Level Data Requirements
-Ref	Title	Description	Priority
-(MSCW)	Related Requirements
-DR01	Customer Logins	Security data fields required for customer verification with Oracle.	M	FR01
-DR02	Website/ Oracle	Customer Data to be displayed on the website.	M	FR02 - FR011, FR13
-DR03	Bottomline	DD set up data fields to be available on the website.	M	FR09, FR10
-DR04	Elevon	Data fields for customer card payments must be available on the website.	M	FR08, FR10
+|Ref|	Title|	Description|	Priority (MSCW)|	Related Requirements|
+|---|---|---|---|---|
+|DR01|	Customer Logins|	Security data fields required for customer verification with Oracle.|	M|	FR01|
+|DR02|	Website/ Oracle|	Customer Data to be displayed on the website.|	M|	FR02 - FR011, FR13|
+|DR03|	Bottomline|	DD set up data fields to be available on the website.|	M|	FR09, FR10|
+|DR04|	Elevon|	Data fields for customer card payments must be available on the website.|	M|	FR08, FR10|
 
 ### High Level Non-Functional Requirements
-Ref	Title	Description	Priority
-(MSCW)	NFR Type	Related Req’s
-NFR01	Website	Additional links to third parties styled as BAYV website	M	Look and feel	FR10
-NFR02	Website	Simple customer instructions on website pages	M	Usability 	FR01 – FR09
-NFR03	Website	Timely response	S	Performance – Speed	FR11
-NFR04	Website	24/7 availability same as the website	S	Availability - Hrs	FR11
-NFR06	Customer	Enhanced customer impact	S	Customer Impact	
-NFR07	Staff	Minimal staff impact	S	Staff Impact	
-NFR08	L & R	Compliant to all L & R requirements	M	Legal and Regulatory	FR01
+|Ref|	Title|	Description|	Priority (MSCW)|	NFR Type|	Related Req’s|
+|---|---|---|---|---|---|
+|NFR01|	Website|	Additional links to third parties styled as BAYV website|	M|	Look and feel|	FR10|
+|NFR02|	Website|	Simple customer instructions on website pages|	M|	Usability |	FR01 – FR09|
+|NFR03|	Website|	Timely response|	S|	Performance – Speed|	FR11|
+|NFR04|	Website|	24/7 availability same as the website|	S|	Availability - Hrs|	FR11|
+|NFR06|	Customer|	Enhanced customer impact|	S|	Customer Impact	|
+|NFR07|	Staff|	Minimal staff impact|	S|	Staff Impact|	
+|NFR08|	L & R|	Compliant to all L & R requirements|	M|	Legal and Regulatory|	FR01|
 
 ### Potential Extent of IT solution
 
