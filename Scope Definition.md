@@ -96,7 +96,7 @@ Further enhancements scoped for phase 2 and 3 ie Downloading documents, viewing 
 ### High Level Requirements
 #### High Level Functional Requirements
 |Ref| Title| Description| Priority (MSC)|Related Req(s)|
-|---|---|---|---|
+|---|---|---|---|---|
 |FR01|	Website – Customer Log In|	Secure customer account login’s providing sufficient security of financial and personal information held on the customer (data protection).|	M|	UC-13|
 |FR02|	Website – My Account Summary|	New screens to display a summary of the customers’ accounts including next payment amount, outstanding balance and any arrears.|	M|	UC-01|
 |FR03|	Website – My Meter|	New screens to display the customers Meter information and request a Meter visit.|	M|	UC-05|
