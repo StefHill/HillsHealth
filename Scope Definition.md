@@ -108,8 +108,8 @@ Further enhancements scoped for phase 2 and 3 ie Downloading documents, viewing 
 |FR09|	Website – Direct Debits|	New screens to allow the customer to set up DD.|	M|	UC-17 (FR12)|
 |FR10|	Website – Service Calls|	New screens to allow customers to report a faulty product (service call) and track the progress of a fault|	S| |
 |FR11|	Website - Arrears|	New screens to display the amount of arrears on an account and present an option to bring the account up to date|	M|	UC-19|
-|FR12|	Website - Styling|	Third party supplier pages to be styled as BAYV.|	S|	FR04, FR08|
-|FR13|	Oracle	Information held in Oracle will be made available to the customer on the website.|	M|	FR02 – FR11|
+|FR12|	Website - Styling|	Third party supplier pages to be styled as x.|	S|	FR04, FR08|
+|FR13|	Oracle|	Information held in Oracle will be made available to the customer on the website.|	M|	FR02 – FR11|
 
 ### High Level Data Requirements
 |Ref|	Title|	Description|	Priority (MSCW)|	Related Requirements|
