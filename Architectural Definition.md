@@ -2,17 +2,21 @@
 
 ## Introduction
 
-The solution architecture defines the entirety of the environment that is exclusively for the support of the developed product.  The design intention for the solution is to build and deliver a product that will provide summarised and simplified medical information. 
+The design intention for the solution is to build and deliver a product that will provide summarised and simplified medical information. The solution architecture defines the entirety of the environment that is exclusively for the support of the developed product.  
 
 ## Scope
 
 The solution intends to deliver the following goals and principles for the platform
 
-G1: Create summarised and paraphrased medical papers on key health topics
+G1: Create summarised and paraphrased medical papers on key health topics.
 
 G2: Display the output via social-media sites in a short video or graphic.
 
-P1: Provide automation wherever possible
+P1: Ensure the brief is a fair representation of the source
+
+P2: Ensure the output is unbiased, and where possible, contains minimal editorial re-write.
+
+P3: Strive for automation of the summary, paraphrasing, and ghraphical output.
 
 ## Dependencies
 
@@ -28,7 +32,7 @@ In this work, we will build a medical trial snapshot (that is, a process that wi
 
 ### Goals beyond this Work
 
-A successful outcome of this work will enable us to expand into further areas of health and medical research, and present complex medical information in a simplified yet targeted manner.  The goal is to provide the 'gold standard' of health and medical information, namely peer-reviewed medical trials, to a non-academic and online audience.
+A successful outcome of this work will enable expansion into further areas of health and medical research, and present complex medical information in a simplified yet targeted manner.  The goal is to provide the 'gold standard' of health and medical information, namely peer-reviewed medical trials, to a non-academic and online audience.
 
 ## Business Context
 
@@ -39,7 +43,7 @@ The project will deliver the following capabilities
 
 ### Problem Definition
 
-Ensure that peer-reviewed health and medical research is available to a non-academic audience and is presented in a succinct and contemporary manner
+Peer-reviewed health and medical research needs to be available to a non-academic audience and presented in a succinct and contemporary manner.   
 
 ## Business Process Scope
 ### Out of Scope
