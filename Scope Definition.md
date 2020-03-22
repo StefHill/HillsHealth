@@ -14,17 +14,16 @@ All business and IT stakeholders.
 
 ### Business Context
 #### Project Background
-Currently the existing website does not offer customers the opportunity to manage their accounts online.  Customers therefore contact Customer Services for all aspects of account management.  
+There is no main-stream online resource available to present medical research to a non-academic audience.  Users are therefore reliant on the plethora of opinion and hear-say when seeking answers to their health and medical questions.  
 
-A secure website portal (My Account) is required to enable customers to self-service and manage their accounts online without the need to contact the Customer Services Team.  This will result in a reduction in the number of Customer Services calls received.
+A deliverable is required to produce summarised and paraphrased briefs on a number of key health topics.  It is envisaged that the briefs will be presented via a short video or infograhpic through social media.  The process will need to be automated where possible with limited manual intervention or review.  This will result in an increased number of articles, enhanced accuracy, and it is hoped, and greater view-count.
 
-Following the launch of the new x website in Dec 2016, further improvements are required to enhance the functionality of the website in line with our competitor sites.
-
+Following the launch of the HillsHealth.org website in 2012, this project will automate what was previously a manual solution, and deliver the summaries in a contemporary and salient manner.
 
 #### Problem/Opportunity Statement
-This project will enhance the customer experience by giving them access to account information, payment options and customer request functionality that previously hasn’t been available.  Customers will be able to access the information 24/7, whereas, currently they can only contact Customer Services within business hours.
+This project will enhance the on-line experience by giving users access to evidence-based health and medical information that is both summarised and paraphrased.  The solution will engage the user via social-media, and provide the briefs via short on-line videos or infographics.  Output is expected to be automated with limited manual review.  This will allow for a greater volume of articles that is currently possible via the current HillsHealth.org site.
 
-The volume of non-value add calls within Customer Services are too high, (approx. 35% of calls relate to customers reporting service issues and requesting balance enquiries or statement queries).  With the introduction of online account management ‘My Account’ the customer would be able to self-serve rather than calling the Customer Services Team.
+The volume of fake and mis-leading online articles covering health and medical opinion makes it difficult for the user to differentiate fact from fiction.  Trials published in medical journals are the gold-standard of health and medical information and should be accesible to all.  However, the academic slant of these papers make them incomprehensible to the non-scholar, and with a firewall preventing full access to all but a few sites, a solution is required to bring the informaion to the layman and provide an on-line audience with a better alternative to the current volume of mis-leading, and often dangerous, medical and health information. 
 
 
 ### Business Objectives
