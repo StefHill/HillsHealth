@@ -29,21 +29,20 @@ The volume of fake and mis-leading online articles covering health and medical o
 ### Business Objectives
 |Ref | Title|	Description|
 |---|---|---|
-|BOJ01 |	Improved website functionality |	Increase website functionality to allow customers to self-serve 24/7 via a My Account secure facility.|
-|BOJ02 |	Process optimisation – Customer Services. | Remove non-value add steps from the Customer Services Team by reducing the call volume.|
-|BOJ03 |	Customer online account management|	Allow customers to manage their x account online with the facility to check balance information make payments, raise service and meter calls.| 
-|BOJ04 |	Sales Process - My Account set up|	Optional ‘my account’ set up as part of the online sales process.|
+|BOJ01 |	Process Optimisation |	Automate the summarisaton and paraphrasing of medical papers from scientific journals|
+|BOJ02 |	Content Production | Present summaries in a contemporary, clear, and eye-catching manner|
+|BOJ03 |	Content Delivery| Use social media to deliver summaries to the wider audience| 
+|BOJ04 |	Content Optimisation| Use keywords and other SEO techniques to promote the summaries|
 
 
 ### Critical Success Factors
 |Ref |	Title |	Description|
 |---|---|---|
-|CSF01 | Website functionality | The website must secure and maintain detailed logs of all customer activity.|
-|CSF02 | Data accuracy | Live customer data must be accurate.|
-|CSF03 | Account log in and password resets | Customer login infrastructure must be sufficient so that there is no commercial burden on maintaining customer login, password resets etc.|
-|CSF04 | Process optimisation |	My Account will enable process optimisation of existing customer service processes.|
-|CSF05 | Customer engagement |	My account must offer customers an easy to use portal that is beneficial in managing their accounts.|
-|CSF06 | Sales completion rates | No material reduction in sales completion rates.|
+|CSF01 | Automation | The deliverable must be able to summarise and paraphrase medical papers.|
+|CSF02 | Data accuracy | Summaries must accurately reflect the source paper.|
+|CSF03 | Content Delivery | The output must be presented via motion graphic or infographic|
+|CSF04 | User engagement | The deliverable must be clear and offer customers an easy to understand solution.|
+|CSF06 | View rates | Increase in views (metric TBC)|
 
 ### Key Assumptions
 - Customers will be required to set up ‘My Account’ as part of the online sales process.
