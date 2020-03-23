@@ -42,20 +42,16 @@ The volume of fake and mis-leading online articles covering health and medical o
 |CSF02 | Data accuracy | Summaries must accurately reflect the source paper.|
 |CSF03 | Content Delivery | The output must be presented via motion graphic or infographic|
 |CSF04 | User engagement | The deliverable must be clear and offer customers an easy to understand solution.|
-|CSF06 | View rates | Increase in views (metric TBC)|
+|CSF06 | Increase in user metrics | Increase in views (metric TBC)|
 
 ### Key Assumptions
-- Customers will be required to set up ‘My Account’ as part of the online sales process.
-- Customers will be required to set up a Direct Debit as part of the online sales process. 
-- My account ‘customer requests’ will feed into the appropriate system for internal action.
-- Live customer data will be accurate.
-- x Website and internal system changes can be made within the project timescale.
-- Changes to internal processes can be designed/communicated/trained within the business.
+- Access to medical journals is available (either full access or abstract).
+- No project timescale applies.
 - Resource is available for all aspects of the project.
 - Funding is available for the project.
 
 ### Drivers and Constraints
-Scope -  The project needs enhance to website functionality enabling customers to self-serve.
+Scope -  The project needs to automate the summarisation and paraphasing of medical papers, and present online via a graphic.
 Quality – All requirements must be well defined to facilitate the build quality of the design.
 Time – The project must go live on (date TBD)
 Cost -  Funding is available for all elements of the project
@@ -63,30 +59,27 @@ Cost -  Funding is available for all elements of the project
 
 |Driver | Descriptions of importance or any constraints that are relevant | Priority
 |---|---|---|
-|Time |	Earliest possible delivery |3 |
-|Cost |	Within funding budget | 4 |
-|Quality | Customer information must be of a quality that adds value to the customer’s experience |2| 
-|Scope | Reduction in Customer Services calls required asap | 1 |
+|Time |	Earliest possible delivery |4 |
+|Cost |	Within funding budget | 3 |
+|Quality | Summaries must be of a quality that adds value to the customer’s experience |2| 
+|Scope | Provide summaries of medical papers and publish online | 1 |
 
 ### Definition of Scope
 #### Processes
 |Processes|Description of Impact|
 |---|---|
-|Sales | Customers will be given the option to set up ‘My Account’ as part of the online sales process.|
-|Payments | Online payments will be available to customer who have set up my account.|
-|Direct Debits | Customers will be required to set up a DD as part of the sales process.|
-|Direct Debits | Customers will have the option to set up a DD if they are currently not a DD customer.|
-|Service Requests| Customers will be able to self-serve when reporting product faults (reduction in Customer Services calls).|
-|Meter Calls | Customers will be able to self-serve when requesting a meter call (reduction in Customer Services calls).|
-|Balance/ payment enquiries | Customers will be able to self-serve when requesting Balance or payment enquiries (reduction in Customer Services calls).|
-|Arrears | Customers will be notified of arrears and will be able to make payments (improvement in Arrears and reduction in Customer Services/Telecollections calls).|
+|Data Mining | Extract medical papers from scientific journals specific to a chosen topic.|
+|Data Wrangling | Transform the medical papers to a summarised and paraphrased brief. Briefs will be converted to a handful of points covering participants, study and results.|
+|Data Presentation.| Briefs will be presented via a graphic (either motion or infographic)|
+|Manual Sanity Check| The editor will review the outcome for accuracy and suitable presentation|
+|Summary Posted | The sumarised and paraphrased graphic will be posted to a suitable social media site (TBC).|
 
 Process Map of the impacted process can be found below:
 
 #### Customer Segment
 |Customer Segment| Description of Impact|
 |---|---|
-|All|My Account will be available to all customers.|
+|All|The briefs will be universally available via social media and cover a handful of key health topics..|
 
 #### Out of Scope
 Further enhancements scoped for phase 2 and 3 ie Downloading documents, viewing account history, additional self-service function etc
