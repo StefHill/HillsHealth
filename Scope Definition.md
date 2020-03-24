@@ -79,55 +79,41 @@ Process Map of the impacted process can be found below:
 #### Customer Segment
 |Customer Segment| Description of Impact|
 |---|---|
-|All|The briefs will be universally available via social media and cover a handful of key health topics..|
+|All|The briefs will be universally available via social media and will cover a handful of key health topics..|
 
 #### Out of Scope
-Further enhancements scoped for phase 2 and 3 ie Downloading documents, viewing account history, additional self-service function etc
+Further analysis of the data collected, i.e. systematic reviews of collected summaries
 
 ### High Level Requirements
 #### High Level Functional Requirements
 |Ref| Title| Description| Priority (MSC)|Related Req(s)|
 |---|---|---|---|---|
-|FR01|	Website – Customer Log In|	Secure customer account login’s providing sufficient security of financial and personal information held on the customer (data protection).|	M|	UC-13|
-|FR02|	Website – My Account Summary|	New screens to display a summary of the customers’ accounts including next payment amount, outstanding balance and any arrears.|	M|	UC-01|
-|FR03|	Website – My Meter|	New screens to display the customers Meter information and request a Meter visit.|	M|	UC-05|
-|FR04|	Website – My Payments|	New screens to display the customers Payment information and options to make a payment or set up a DD.|	M|	UC-04|
-|FR05|	Website – My Products|	New screens to enable customers to a view their agreements and product level information with the option of reporting a fault on a product covered by AS/EPS payments.|	M|	UC-18|
-|FR06|	Website – My Details|	New screens to enable customers to view the personal information held with the option to change marketing preferences.|	M|	UC-16|
-|FR07|	Website – My Orders|	New screens to allow customer to view the status of their orders.|	M|	UC-15|
-|FR08|	Website – Card Payments|	New screens to allow the customer to make an online card payment.|	M|	UC-14 (FR12)|
-|FR09|	Website – Direct Debits|	New screens to allow the customer to set up DD.|	M|	UC-17 (FR12)|
-|FR10|	Website – Service Calls|	New screens to allow customers to report a faulty product (service call) and track the progress of a fault|	S| |
-|FR11|	Website - Arrears|	New screens to display the amount of arrears on an account and present an option to bring the account up to date|	M|	UC-19|
-|FR12|	Website - Styling|	Third party supplier pages to be styled as x.|	S|	FR04, FR08|
-|FR13|	Oracle|	Information held in Oracle will be made available to the customer on the website.|	M|	FR02 – FR11|
+|FR01|	Data Mining| Data Mine relevant articles from a selection of medical journals.  The chosen journals will be based on the impact factor, with studies chosen based on the Jadad criteria.|	M|	UC-01|
+|FR02|	Article analysis and refinement|	A soluion that will summarise and paraphrase the articles as provided in FR01.|	M|	UC-|
+|FR03|	Create Summary Visualisation|	A solution that will enable to summary created in FR02 to be visualised|	M|	UC-|
+|FR04|	Post summaries on-line|	The summaries will be posted to social media and other on-line outlets that are relevant to the chosen topic.|	M|	UC-|
 
 ### High Level Data Requirements
 |Ref|	Title|	Description|	Priority (MSCW)|	Related Requirements|
 |---|---|---|---|---|
-|DR01|	Customer Logins|	Security data fields required for customer verification with Oracle.|	M|	FR01|
-|DR02|	Website/ Oracle|	Customer Data to be displayed on the website.|	M|	FR02 - FR011, FR13|
-|DR03|	Bottomline|	DD set up data fields to be available on the website.|	M|	FR09, FR10|
-|DR04|	Elevon|	Data fields for customer card payments must be available on the website.|	M|	FR08, FR10|
+|DR01|	Customer Logins|	Summaries must reflect the information provided in the journal paper.|	M|	FR00|
+
 
 ### High Level Non-Functional Requirements
 |Ref|	Title|	Description|	Priority (MSCW)|	NFR Type|	Related Req’s|
 |---|---|---|---|---|---|
-|NFR01|	Website|	Additional links to third parties styled as BAYV website|	M|	Look and feel|	FR10|
-|NFR02|	Website|	Simple customer instructions on website pages|	M|	Usability |	FR01 – FR09|
-|NFR03|	Website|	Timely response|	S|	Performance – Speed|	FR11|
-|NFR04|	Website|	24/7 availability same as the website|	S|	Availability - Hrs|	FR11|
-|NFR06|	Customer|	Enhanced customer impact|	S|	Customer Impact	|
-|NFR07|	Staff|	Minimal staff impact|	S|	Staff Impact|	
-|NFR08|	L & R|	Compliant to all L & R requirements|	M|	Legal and Regulatory|	FR01|
+|NFR01|	Algorithm|	Timely response to request for summaries|	S|	Performance – Speed|	FR01|
+|NFR02|	Summaries|	24/7 availability (both input and output)|	S|	Availability - Hrs|	FR01|
+|NFR03|	User|	Enhanced visual impact|	S|	User Impact	| |
+|NFR04|	Automation|	Minimal manual input|	S|	Disruption|	|
+|NFR05|	L & R|	Compliant to all L & R requirements|	M|	Legal and Regulatory|	FR01|
 
 ### Potential Extent of IT solution
 
 ### Naming Conventions
 |Term| Description|
 |---|---|
-|DD| Direct Debit|
-|L & R| Legal and Regulatory|
+|TBC| TBC|
 	
 
 
