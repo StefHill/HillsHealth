@@ -1,9 +1,9 @@
 # HillsHealth.org
 ## Medical Trials Summarised and Simplified
 
-Medical journals have many problems and need reform.  They are overinfluenced by the pharmaceutical industry, too fond of the mass media, and yet neglectful of patients.  The research they contain is hard to interpret and prone to bias, and peer review, the process at the heart of journals and all of science, is deeply flawed.  
+_Medical journals have many problems and need reform.  They are overinfluenced by the pharmaceutical industry, too fond of the mass media, and yet neglectful of patients.  The research they contain is hard to interpret and prone to bias, and peer review, the process at the heart of journals and all of science, is deeply flawed._  
 
-The whole business of medical journals is corrupt because owners are making money from restricting access to important research, most it funded by public money.  All this matters to everybody because medical journals have a strong influence on their healthcare and lives.
+_The whole business of medical journals is corrupt because owners are making money from restricting access to important research, most it funded by public money.  All this matters to everybody because medical journals have a strong influence on their healthcare and lives._
 
 Richard Smith (former editor of the British Medical Journal)
 
