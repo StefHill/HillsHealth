@@ -17,3 +17,10 @@ We were then able to run queries that extracted the following data points;
 - The sum and combined costs of prescription by GP practice
 
 Queries were moved to PowerBI for further analysis.  Respectively, a cut of the data for the 4 queries listed above is shown below;
+
+![Feb20 IndividualDrugData (2)](https://user-images.githubusercontent.com/45914355/83693253-a8708500-a5ed-11ea-9def-00a06e9b66c5.png)
+
+SELECT GPData202002v2.BNFName, BNF.SectionDesc, Sum(GPData202002v2.Items) AS SumOfItems, Sum(GPData202002v2.ActCost) AS SumOfActCost, [SumOfActCost]/[SumOfItems] AS Expr1
+FROM GPData202002v2 INNER JOIN BNF ON GPData202002v2.BNFChemical = BNF.BNFChemical
+GROUP BY GPData202002v2.BNFName, BNF.SectionDesc
+ORDER BY Sum(GPData202002v2.ActCost) DESC;
