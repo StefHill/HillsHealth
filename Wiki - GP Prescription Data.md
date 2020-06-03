@@ -31,6 +31,19 @@ ORDER BY Sum(GPData202002v2.ActCost) DESC;
 ![Feb20 GpPrescriptionHLDisorder (2)](https://user-images.githubusercontent.com/45914355/83693632-5ed46a00-a5ee-11ea-998a-df0a17dce3d0.png)
 
 SELECT BNF.ChapterDesc, Sum(GPData202002v2.ActCost) AS SumOfActCost, Sum(GPData202002v2.Items) AS SumOfItems, [SumOfActCost]/[SumOfItems] AS CostPerItem
+
 FROM BNF INNER JOIN GPData202002v2 ON BNF.BNFChemical = GPData202002v2.BNFChemical
+
 GROUP BY BNF.ChapterDesc
+
+ORDER BY Sum(GPData202002v2.ActCost) DESC;
+
+![Feb20 GpPrescriptionLLDisorder (2)](https://user-images.githubusercontent.com/45914355/83693850-c8ed0f00-a5ee-11ea-8df3-0e4e6c8c5c2b.png)
+
+SELECT GPData202002v2.BNFChemical, BNF.ChapterDesc, Sum(GPData202002v2.ActCost) AS SumOfActCost, Sum(GPData202002v2.Items) AS SumOfItems
+
+FROM GPData202002v2 INNER JOIN BNF ON GPData202002v2.BNFChemical = BNF.BNFChemical
+
+GROUP BY GPData202002v2.BNFChemical, BNF.ChapterDesc
+
 ORDER BY Sum(GPData202002v2.ActCost) DESC;
