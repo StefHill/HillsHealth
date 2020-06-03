@@ -16,4 +16,4 @@ We were then able to run queries that extracted the following data points;
 - The sum and combined costs of prescriptions by specific disorder
 - The sum and combined costs of prescription by GP practice
 
-Queries were moved to PowerBI for further analysis.
+Queries were moved to PowerBI for further analysis.  Respectively, a cut of the data for the 4 queries listed above is shown below;
