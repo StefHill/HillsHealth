@@ -16,7 +16,7 @@ We were then able to run queries that extracted the following data points;
 - The sum and combined costs of prescriptions by specific disorder
 - The sum and combined costs of prescription by GP practice
 
-Queries were moved to PowerBI for further analysis.  Respectively, a cut of the data for the 4 queries listed above is shown below;
+Queries were moved to PowerBI for further analysis.  Respectively, a cut of the **February 2020** data for the 4 queries listed above is shown below;
 
 ![Feb20 IndividualDrugData (2)](https://user-images.githubusercontent.com/45914355/83693253-a8708500-a5ed-11ea-9def-00a06e9b66c5.png)
 
@@ -47,3 +47,11 @@ FROM GPData202002v2 INNER JOIN BNF ON GPData202002v2.BNFChemical = BNF.BNFChemic
 GROUP BY GPData202002v2.BNFChemical, BNF.ChapterDesc
 
 ORDER BY Sum(GPData202002v2.ActCost) DESC;
+
+![Feb20PrescriptionsBySurgery (2)](https://user-images.githubusercontent.com/45914355/83693951-06519c80-a5ef-11ea-9e07-b7360c464bbd.png)
+SELECT GPData202002v2.HB, GPData202002v2.PracticeID, Address_DupsRemoved.Street, Address_DupsRemoved.Posttown, Sum(GPData202002v2.ActCost) AS SumOfActCost, Sum(GPData202002v2.Items) AS SumOfItems, [SumOfActCost]/[SumOfItems] AS Expr1
+
+FROM BNF INNER JOIN (([ChemSubstance DupsRemoved] INNER JOIN GPData202002v2 ON [ChemSubstance DupsRemoved].BNFChemical = GPData202002v2.BNFChemical) INNER JOIN Address_DupsRemoved ON GPData202002v2.PracticeID = Address_DupsRemoved.PracticeId) ON BNF.BNFChemical = [ChemSubstance DupsRemoved].BNFChemical
+
+GROUP BY GPData202002v2.HB, GPData202002v2.PracticeID, Address_DupsRemoved.Street, Address_DupsRemoved.Posttown;
+
