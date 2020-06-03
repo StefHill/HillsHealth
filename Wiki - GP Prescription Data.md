@@ -10,4 +10,10 @@ The first step was to clean the data.  The GP address data included duplicates t
 
 ![GP entity diagram (2)](https://user-images.githubusercontent.com/45914355/83583230-af3ebf80-a53b-11ea-8346-9cae53fc5412.png)
 
-The 
+We were then able to run queries that extracted the following data points;
+- The sum and conbined cost of individual prescriptions
+- The sum and combined costs of prescriptions by high level disorder
+- The sum and combined costs of prescriptions by specific disorder
+- The sum and combined costs of prescription by GP practice
+
+Queries were moved to PowerBI for further analysis.
