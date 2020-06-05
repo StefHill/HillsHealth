@@ -6,12 +6,12 @@ The Welsh GP prescription data is split into 4 tables that cover the GP address,
 
 The prescription data is published on a monthly basis and the covers prescriptions that are prescribed in Wales by GP's and non medical prescribers that have prescribed on behalf of the GP practice, that are then dispensed in the community within Wales or England. The data includes all prescribed medicines, dressings and appliances that are dispensed each month. If a patient does not take a prescription to the pharmacy for dispensing, then the information will not be included in the dataset. Private prescriptions are not included in the data.
 
-The first step is to clean the data.  The GP address data included duplicates that needed to be removed (this would have formed many-to-many relationships which most RDB's do not like).  The data munging was done in Access as PowerBI had problems querying the size of the data files.  In additon, duplicate 'BNFChemical' codes were removed from the ChecmSubstance table.  The entity diagram for the 4 tables is as follows;
+The first step is to clean the data.  The GP address data included duplicates that needed to be removed (this would have formed many-to-many relationships which most RDB's do not like).  The data munging was done in Access as PowerBI had problems querying the size of the data files.  In addition, duplicate 'BNFChemical' codes were removed from the ChecmSubstance table.  The entity diagram for the 4 tables is as follows;
 
 ![GP entity diagram (2)](https://user-images.githubusercontent.com/45914355/83583230-af3ebf80-a53b-11ea-8346-9cae53fc5412.png)
 
 We were then able to run queries that extracted the following data points;
-- The sum and conbined cost of individual prescriptions
+- The sum and combined cost of individual prescriptions
 - The sum and combined costs of prescriptions by high level disorder
 - The sum and combined costs of prescriptions by specific disorder
 - The sum and combined costs of prescription by GP practice
@@ -54,4 +54,8 @@ SELECT GPData202002v2.HB, GPData202002v2.PracticeID, Address_DupsRemoved.Street,
 FROM BNF INNER JOIN (([ChemSubstance DupsRemoved] INNER JOIN GPData202002v2 ON [ChemSubstance DupsRemoved].BNFChemical = GPData202002v2.BNFChemical) INNER JOIN Address_DupsRemoved ON GPData202002v2.PracticeID = Address_DupsRemoved.PracticeId) ON BNF.BNFChemical = [ChemSubstance DupsRemoved].BNFChemical
 
 GROUP BY GPData202002v2.HB, GPData202002v2.PracticeID, Address_DupsRemoved.Street, Address_DupsRemoved.Posttown;
+
+**Visualisation
+
+![Pioglitazone Map (2)](https://user-images.githubusercontent.com/45914355/83822702-b3004c80-a6c9-11ea-8deb-e5b4e8842a8b.png)
 
