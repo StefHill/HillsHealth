@@ -55,7 +55,7 @@ FROM BNF INNER JOIN (([ChemSubstance DupsRemoved] INNER JOIN GPData202002v2 ON [
 
 GROUP BY GPData202002v2.HB, GPData202002v2.PracticeID, Address_DupsRemoved.Street, Address_DupsRemoved.Posttown;
 
-**Visualisation
+###Visualisation
 
 ![Pioglitazone Map (2)](https://user-images.githubusercontent.com/45914355/83822702-b3004c80-a6c9-11ea-8deb-e5b4e8842a8b.png)
 
