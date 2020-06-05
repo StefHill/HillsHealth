@@ -63,3 +63,7 @@ Using the GP prescription data to plot the location (surgery postcode) and the s
 
 ![Pioglitazone Map (2)](https://user-images.githubusercontent.com/45914355/83822702-b3004c80-a6c9-11ea-8deb-e5b4e8842a8b.png)
 
+Text...
+
+![Pioglitazone Data](https://user-images.githubusercontent.com/45914355/83826858-e1375980-a6d4-11ea-8c92-e83927c5f87a.png)
+
