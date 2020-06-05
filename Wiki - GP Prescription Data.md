@@ -57,13 +57,13 @@ GROUP BY GPData202002v2.HB, GPData202002v2.PracticeID, Address_DupsRemoved.Stree
 
 ### Visualisation - Pioglitazone
 
-Pioglitazone is medication used to treat diabetes.  It is often used where Metformin is not reccomended or cannot be used.  However, studies have highlighted the negative side effects of Pioglitazone, and as reported on https://bnf.nice.org.uk/drug/pioglitazone.html, can increase the risk of heart failure.  
+Pioglitazone is medication used to treat diabetes.  It is often used where Metformin is not recommended or cannot be used.  However, studies have highlighted the negative side effects of Pioglitazone, and as reported on https://bnf.nice.org.uk/drug/pioglitazone.html, can increase the risk of heart failure.  
 
 Using the GP prescription data to plot the location (surgery postcode) and the sum of Pioglitazone prescriptions for the 4 health boards in south-east Wales, we can visualise any outliers.
 
 ![Pioglitazone Map (2)](https://user-images.githubusercontent.com/45914355/83822702-b3004c80-a6c9-11ea-8deb-e5b4e8842a8b.png)
 
-Text...
+From the image above we can see an outlier east of Swansea, and to a lesser degree, an outlier north of Pontypridd.  The image below shows Pioglitazone prescriptions by postal town, locality, and health board. I haven't included a legend, but the locality and HB codes are available online.  For the moment we just want to get a sense of what the GP data for Wales can tell us.  But ultimately, the analysis of the data will be directed by the output from the Phase 1 deliverable (i.e EBM summarisation and paraphrasing).
 
 ![Pioglitazone Data](https://user-images.githubusercontent.com/45914355/83826858-e1375980-a6d4-11ea-8c92-e83927c5f87a.png)
 
