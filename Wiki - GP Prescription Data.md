@@ -59,7 +59,7 @@ GROUP BY GPData202002v2.HB, GPData202002v2.PracticeID, Address_DupsRemoved.Stree
 
 Pioglitazone is medication used to treat diabetes.  It is often used where Metformin is not reccomended or cannot be used.  However, studies have highlighted the negative side effects of Pioglitazone, and as reported on https://bnf.nice.org.uk/drug/pioglitazone.html, can increase the risk of heart failure.  
 
-Using the GP prescription data to plot the location (surgery postcode) and sum of Pioglitazone prescriptions (size of circles) for the 4 healthboards in south-east Wales, we can see an outlier at a surgery west of Swansea.
+Using the GP prescription data to plot the location (surgery postcode) and the sum of Pioglitazone prescriptions for the 4 health boards in south-east Wales, we can visualise any outliers.
 
 ![Pioglitazone Map (2)](https://user-images.githubusercontent.com/45914355/83822702-b3004c80-a6c9-11ea-8deb-e5b4e8842a8b.png)
 
