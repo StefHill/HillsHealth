@@ -1,5 +1,5 @@
 # HillsHealth.org
-## Medical Trials Summarised and Simplified
+## An Abstractive Summariser of Evidence-Based Medicine Utilising Bidirectional Encoder Representations from Transformers
 
 _Medical journals have many problems and need reform.  They are overinfluenced by the pharmaceutical industry, too fond of the mass media, and yet neglectful of patients.  The research they contain is hard to interpret and prone to bias, and peer review, the process at the heart of journals and all of science, is deeply flawed._  
 
