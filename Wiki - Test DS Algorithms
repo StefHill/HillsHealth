@@ -1,1 +1,158 @@
-Test
+import collections
+import math
+import pandas
+import re
+# import statistics
+from matplotlib import pyplot as plt
+from collections import Counter
+# import numpy as np
+
+#read the .csv files
+GPdata = pandas.read_csv("GPData202002v2.csv", header=0)
+AddressData = pandas.read_csv("Address_DupsRemoved.csv", header=0)
+BNFData = pandas.read_csv("BNF.csv", header=0)
+ChemSubstance = pandas.read_csv("ChemSubstance DupsRemoved.csv", header=0)
+
+#add csv columns to lists
+DrugName = list(GPdata.BNFName)
+PracticeID = list(GPdata.PracticeID)
+ActCost = list(GPdata.ActCost)
+NetIngCost = list(GPdata.NIC)
+
+
+def drug_list():
+    """list of drugs"""
+    print(*DrugName, sep="\n")
+
+#drug_list()
+
+def drug_list_slice(aNumber, bNumber):
+    """argument for part of list to be returned"""
+    sliceChoice = DrugName[aNumber:bNumber]
+    print(sliceChoice)
+
+#drug_list_slice(-3,-1)
+
+def drug_name(aName):
+    """frequency a specific drug is mentioned in list"""
+    frequency = sum(1 if re.match(aName, x) else 0 for x in DrugName)
+    print(frequency)
+
+#drug_name('Pioglitazone')
+
+def drug_count():
+    """list of drugs prescribed with quantity in DESC order"""
+    occurrences = collections.Counter(DrugName)
+    occurrences1 = sorted(occurrences.items(), key=lambda t : t[1], reverse=True)
+    for key, value in occurrences1:
+        print(key, value)
+
+#drug_count()
+
+def common_drugs():
+    """list of 10 most commonly prescribed drugs"""
+    word_counts = Counter(DrugName)
+    for word, count in word_counts.most_common(10):
+        print(word, count)
+
+#common_drugs()
+
+def drug_histogram(aDrug):
+    """histogram of named drug by type"""
+    occurrences = collections.Counter(aDrug)
+    xs = range(1000)
+    ys = [occurrences[x] for x in xs]
+    plt.bar(xs, ys)
+    plt.title("Histogram of drug occurrences")
+    plt.show()
+
+#drug_histogram('Pioglitazone')
+
+def mean(x):
+    """average cost"""
+    print(sum(x) / len(x))
+
+#mean(ActCost)
+
+
+def median(v):
+    """finds the 'middle-most' value of v"""
+    n = len(v)
+    sorted_v = sorted(v)
+    midpoint = n // 2
+
+    if n % 2 == 1:
+        # if odd, return the middle value
+        print(sorted_v[midpoint])
+    else:
+        # if even, return the average of the middle values
+        lo = midpoint - 1
+        hi = midpoint
+        print((sorted_v[lo] + sorted_v[hi]) / 2)
+
+#median(ActCost)
+
+def quantile(x, p):
+    """returns the pth-percentile value in x"""
+    p_index = int(p * len(x))
+    print(sorted(x)[p_index])
+
+#quantile(ActCost, 0.10)
+#quantile(ActCost, 0.25)
+#quantile(ActCost, 0.75)
+#quantile(ActCost, 0.90)
+
+    """variance"""
+def de_mean(x):
+    """translate x by subtracting its mean (so the result has mean 0)"""
+    x_bar = mean(x)
+    return [x_i - x_bar for x_i in x]
+
+def sum_of_squares(v):
+    """v_1 * v_1 + ... + v_n * v_n"""
+    return dot(v, v)
+
+def dot(v, w):
+    """Sums up products of corresponding pairs of elements. v_1 * w_1 + ... + v_n * w_n"""
+    return sum(v_i * w_i for v_i, w_i in zip(v, w))
+
+def variance(x):
+    """assumes x has at least two elements"""
+    n = len(x)
+    deviations = de_mean(x)
+    return sum_of_squares(deviations) / (n - 1)
+
+#variance(ActCost)
+
+def standard_deviation(x):
+    """standard deviation"""
+    return math.sqrt(variance(x))
+
+#standard_deviation(ActCost)
+
+def interquartile_range(x):
+    """Inter quartile range"""
+    print(quantile(x, 0.75) - quantile(x, 0.25))
+
+#nterquartile_range(ActCost)
+
+def covariance(x, y):
+    """Covariance - unlike variance, measures how 2 variables vary in tandem from their means """
+    """positive number if both x and Y above or below mean.  Negative number if one above and one below"""
+    """more common to use correlation"""
+    n = len(x)
+    return dot(de_mean(x), de_mean(y)) / (n - 1)
+
+#covariance(ActCost, NetIngCost)
+
+def correlation(x, y):
+    """divides out std dev of both variables"""
+    """output should be between -1 (perfect anti-correlation) and 1 (perfect correlation)"""
+    stdev_x = standard_deviation(x)
+    stdev_y = standard_deviation(y)
+    if stdev_x > 0 and stdev_y > 0:
+        return covariance(x, y) / stdev_x / stdev_y
+    else:
+        return 0 # if no variation, correlation is zero
+
+#correlation(ActCost, NetIngCost)
