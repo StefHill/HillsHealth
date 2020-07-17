@@ -23,9 +23,9 @@ To calculate the self-attention layer will require the creation of 3 vectors for
 
 ![pic2 (2)](https://user-images.githubusercontent.com/45914355/87809055-a20f3300-c852-11ea-9df3-a7f155666ae9.png)
 
-The word embeddings are multiplied by the 3 weighted vectors.  The query vector is the multiplied by the key vector of all words (including itself)
+The word embeddings are multiplied by the 3 weighted vectors.  The query vector is then multiplied by the key vector of all words (including itself)
 
-The score is then divided by 8 which leads to a more stable gradient (8 is the default value as it’s the sq root of the key vector used (i.e. 64).
+The score is then divided by 8 which leads to a more stable gradient (8 is the default value as it’s the sq root of the key vector used (i.e. 64)).
 
 ![pic3 (2)](https://user-images.githubusercontent.com/45914355/87809089-b18e7c00-c852-11ea-9fe4-81b15fb20390.png)
 
