@@ -9,5 +9,6 @@ Note that the tech is moving very quickly on this issue, and its possible that a
 A brief summary of BERT from what is understood from the excellent Illustrated Transformer (http://jalammar.github.io/illustrated-transformer/);
 
 Encoder;
+
 The self-attention layer takes each word at a time and considers its context by looking at the words around it.  The Encoder then puts the word into a feedforward neural net which subsequently outputs the embeddings.
 
