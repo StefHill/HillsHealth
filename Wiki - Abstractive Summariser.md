@@ -31,10 +31,10 @@ The score is then divided by 8 which leads to a more stable gradient (8 is the d
 
 A Softmax function is then applied as e^x/(∑e^x) where χ is the previous vector value and Σ is the sum of all the χ words added together.  Softmax ensures that all the words add up to 1, and shows the weighted relevance to the key word.  The Softmax value can then be multiplied by each part of the value vector.
 
-The sum of the weighted value vectors produces and output of the self-attention layer for the specific word.  This value is fed into the feed-forward layer.
+The sum of the weighted value vectors produces an output of the self-attention layer for the specific word.  This value is fed into the feed-forward layer.
 
 Each of the outputs needs to be concatenated together to form one vector of nx768 where n = number of words.
 
-Decoder – the decoder will calculate the most likely next word in a sequence.  TBC…
+Decoder – the decoder will calculate the most likely next word in a sequence...(to follow)
 
 
