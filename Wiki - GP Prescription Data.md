@@ -67,3 +67,9 @@ From the image above we can see an outlier east of Swansea, and to a lesser degr
 
 ![Pioglitazone Data](https://user-images.githubusercontent.com/45914355/83826858-e1375980-a6d4-11ea-8c92-e83927c5f87a.png)
 
+To consider (and consider longitudinal, how outliers have performed over time, vs hospital prescribing)...
+- Does the EBM suggest that one drug is no better than another, yet a prescribed drug, for a particular practice, is far more expensive.
+- Does the cost of a certain type of drug make up a large % of the total spend for that practice (compared to peers, per drug, groups)
+- Does the EBM suggest that a particular drug has side effects in a particular cohort.
+- Cost vs prescribed vs strength of EBM (Gapminder).
+- Consider centiles, outliers, PU(prescribing unit)
