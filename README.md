@@ -7,4 +7,4 @@ _The whole business of medical journals is corrupt because owners are making mon
 
 Richard Smith (former editor of the British Medical Journal)
 
-Evidence-based medicine (EBM) is the gold-standard of health and medical information and provides us with the current best evidence to allow us to make informed decisions about our wellbeing.  As such, the high-level objective for this project is to bring EBM to the lay public in a style that is engaging, contemporary, and accurately reflects the published research. 
+Evidence-based medicine (EBM) is the gold-standard of health and medical information and provides us with the current best evidence to allow us to make informed decisions about our wellbeing.  As such, the high-level vision for this project is to bring EBM to the lay public in a style that is engaging, contemporary, and accurately reflects the published research. 
