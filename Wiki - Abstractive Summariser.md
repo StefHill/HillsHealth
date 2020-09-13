@@ -38,11 +38,17 @@ Each of the outputs needs to be concatenated together to form one vector of nx76
 Decoder – the decoder will calculate the most likely next word in a sequence...(to follow)
 
 Additional - API examples for PubMed and PMC;
+
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pioglitazone&reldate=60&datetype=edat&retmax=100
+
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=32914429,32912770
+
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32914429,32912770&rettype=abstract&retmode=text
 
+
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=pioglitazone&reldate=30&datetype=edat&retmax=100
+
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pmc&id=7480213,7477453
+
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7480213,7477453
 
