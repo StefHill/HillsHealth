@@ -53,3 +53,5 @@ https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pmc&id=7480213,74
 
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7480213,7477453
 
+https://dataguide.nlm.nih.gov/eutilities/utilities.html
+
