@@ -71,5 +71,5 @@ To consider (and consider longitudinal, how outliers have performed over time, v
 - Does the EBM suggest that one drug is no better than another, yet a prescribed drug, for a particular practice, is far more expensive.
 - Does the cost of a certain type of drug make up a large % of the total spend for that practice (compared to peers, per drug, groups)
 - Does the EBM suggest that a particular drug has side effects in a particular cohort.
-- Cost vs prescribed vs strength of EBM (Gapminder).
+- Cost vs prescribed vs strength of EBM (Gapminder for health).
 - Consider centiles, outliers, PU(prescribing unit)
