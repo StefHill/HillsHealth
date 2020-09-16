@@ -156,3 +156,24 @@ def correlation(x, y):
         return 0 # if no variation, correlation is zero
 
 #correlation(ActCost, NetIngCost)
+
+
+#16/09/20 - load csv and selected cols. usecols so only selected columns in DF, Low_memory so internal process file in chunks
+fields = ['HB','Locality','PracticeID','BNFCode','BNFName','Items','NIC','ActCost','Quantity','Period']
+GPData202003 = pandas.read_csv('GPData202002v2.csv', usecols=fields, low_memory=False)
+
+#set index and keep sorted
+GPdata_by_drug = GPdata.set_index('BNFName').sort_index()
+
+GPdata_by_drug.index
+GPdata_by_drug.loc['Pioglitazone']
+
+#provides summary stats analysis
+GPData202003.describe()
+
+#scatter plot of net cost vs actual cost of chosen drug
+GPdata_by_drug.loc['Pioglitazone'].plot.scatter('NIC','ActCost')
+
+#plot a comparison with axes
+axes = GPdata_by_drug.loc['Pioglitazone'].plot.scatter('NIC','ActCost'), label='Pioglitazone')
+GPdata_by_drug.loc['Metformin'].plot.scatter('NIC','ActCost'), label='Metformin', color='C1', ax=axes)
