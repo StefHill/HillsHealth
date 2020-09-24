@@ -18,7 +18,7 @@ GPdata_filtered=GPdata[GPdata.BNFCode.str.startswith(BNF_SECTION)]
 
 ### 2. Investigate longitudinal data
 
-- select one or a sample of the shortlisted drugs based on a particular variable i.e. cost/quantity.  Pull historic data for the the selection and visualise the data.
+- select one or a sample of the shortlisted drugs based on a particular variable i.e. cost/quantity.  Pull historic data for the selection and visualise the data.  Data is available from April 2012 for GP prescription data in Wales (April 2016 for hospital prescribing (primary care only)).
 
 _sample code to be posted here_
 
