@@ -48,13 +48,13 @@ https://dataguide.nlm.nih.gov/eutilities/utilities.html
 
 ### 5. Complete sentiment analysis on the returned abstracts
 
-- use NLP process to determine the sentiment of the returned abstracts for the chosen drug(s).
+- use NLP process to determine the sentiment of the returned abstracts for the chosen drug(s).  Although sentiment analysis will not necesarily influence a review of the EBM, a strong negative sentiment would prompt further investigation.
 
 _sample code to be posted here_
 
 ### 6. Extract relevant data from the abstracts
 
-- return an output per abstract which confirms the study population, methods, results and conclusion.  In time we will look to complete an abstractive summary of the abstract, but in the first instance, we will return an extractive summary.  Population should equal a positive number, and the other headers should return a small sentence no more than 15 words.
+- return an output per abstract which confirms the study population, methods, results and conclusion.  In time we will look to complete an abstractive summary of the abstract, but in the first instance, we will return an extractive summary.  Population should return a positive number, and the other headers should return a small sentence of no more than 15 words.
 
 _sample code to be posted here_
 
