@@ -16,21 +16,21 @@ ChemSubstance=pandas.read_csv(path.join('data','GPData202006',"ChemSubstance.csv
 
 GPdata_filtered=GPdata[GPdata.BNFCode.str.startswith(BNF_SECTION)]
 
-### 2. Investigate longtitudinal data
+### 2. Investigate longitudinal data
 
-- select one or a sample of the shortlisted drugs based on a particular variable i.e cost/quantity.  Pull historic data for the the selection and visualise the data.
+- select one or a sample of the shortlisted drugs based on a particular variable i.e. cost/quantity.  Pull historic data for the the selection and visualise the data.
 
 _sample code to be posted here_
 
-### 3. select Drug/Conditon for text/API search
+### 3. select Drug/Condition for text/API search
 
-- from the visualised data in point 2, look to select one or two drugs that show unbalanced historical data, a significant difference in cost, or a significant different in amount prescibed.
+- from the visualised data in point 2, look to select one or two drugs that show unbalanced historical data, a significant difference in cost, or a significant different in amount prescribed.
 
 _sample code to be posted here_
 
 ### 4. add the drug name(s) to a PubMed/PMC API search and return abstracts
 
-- from the visualised data in point 2, look to select one or two drugs that show unbalanced historical data, a significant difference in cost, or a significant different in amount prescibed.
+- from the output in point 3, add the named drugs to the following API's.  This will return the paper codes, which will in turn return the abstracts.
 
 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=pioglitazone&reldate=60&datetype=edat&retmax=100
 
@@ -54,7 +54,7 @@ _sample code to be posted here_
 
 ### 6. Extract relevant data from the abstracts
 
-- return an output per abstract which confirms the study population, methods, results and conclusion.  In time we will look to complete an abstractive summary of the abstract, but in the first instance, we will return an extractive summary.  Population should equal a positive number, and the other headers should return a small scentance no more than 15 words.
+- return an output per abstract which confirms the study population, methods, results and conclusion.  In time we will look to complete an abstractive summary of the abstract, but in the first instance, we will return an extractive summary.  Population should equal a positive number, and the other headers should return a small sentence no more than 15 words.
 
 _sample code to be posted here_
 
