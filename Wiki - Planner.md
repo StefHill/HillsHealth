@@ -22,13 +22,13 @@ GPdata_filtered=GPdata[GPdata.BNFCode.str.startswith(BNF_SECTION)]
 
 _sample code to be posted here_
 
-### 3. select Drug/Condition for text/API search
+### 3. Select Drug/Condition for text/API search
 
-- from the visualised data in point 2, look to select one or two drugs that show unbalanced historical data, a significant difference in cost, or a significant different in amount prescribed.
+- from the visualised data in point 2, look to select one or two drugs that show unbalanced historical data, a significant difference in cost, or a significant difference in amount prescribed.
 
 _sample code to be posted here_
 
-### 4. add the drug name(s) to a PubMed/PMC API search and return abstracts
+### 4. Add the drug name(s) to a PubMed/PMC API search and return abstracts
 
 - from the output in point 3, add the named drugs to the following API's.  This will return the paper codes, which will in turn return the abstracts.
 
