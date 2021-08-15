@@ -2,7 +2,9 @@
 
 #### Load
 1.       Libraries / Get data / Info / head / describe (basic familiarity with structure)
-2.       Sum /std dev / max / mean / value_count / sort / groupby (basic familiarity with data)
+  import pandas as pd, import numpy as np, import matplotlib.pyplot as plt, import seaborn as sns, %matplotlib inline
+
+2.       Sum / std dev / max / mean / value_count / sort / groupby (basic familiarity with data)
 
 #### EDA
 1.       Countplot of target field (chart)
