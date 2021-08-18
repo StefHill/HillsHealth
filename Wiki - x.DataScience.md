@@ -1,8 +1,21 @@
 ## DS Process
 
 #### Load
-1.       Libraries / Get data / Info / head / describe (basic familiarity with structure)
-  import pandas as pd, import numpy as np, import matplotlib.pyplot as plt, import seaborn as sns, %matplotlib inline
+1.       Libraries / head / describe (basic familiarity with structure)
+         - import pandas as pd
+         - import numpy as np
+         - import matplotlib.pyplot as plt
+         - import seaborn as sns
+         - %matplotlib inline
+
+         Get Data
+         - df = pd.read_csv('fooFile.csv')
+         - df = pd.read_csv('fooFile.csv', index_col=0)
+         - pd.read_excel('Excel_Sample.xlsx',sheetname='Sheet1')
+         - df = pd.read_html('http://www.fdic.gov/bank/individual/failed/banklist.html')
+
+         Info
+         - fooDF.info()   #returns columns, non-null counts, dtype
 
 2.       Sum / std dev / max / mean / value_count / sort / groupby (basic familiarity with data)
 
