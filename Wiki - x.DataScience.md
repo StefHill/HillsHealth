@@ -43,15 +43,35 @@ Alternative - joint plot / lmplot / hist / pairplot / kde plot / facetgrid / rug
 6.       Create dummy variables (drop originals)
 7.       Get rid of pointless bits of fields (i.e day and month if only need year)
 8.       Standardise/normalise the variables (scaler, esp NN)
-9.       NLP – requires additional steps (punc/stopwords/tokenize/stem/vectorise etc)
+
+         Scaler (KNN)
+         - from sklearn.preprocessing import StandardScaler
+           scaler = StandardScaler()
+           scaler.fit(df.drop('TARGET CLASS',axis=1))   #fit scaler to the features
+           scaled_features = scaler.transform(df.drop('TARGET CLASS',axis=1))   #transform() method to transform the features to a scaled version
+         - df_feat = pd.DataFrame(scaled_features,columns=df.columns[:-1])  #create df for all columns except last one
+           df_feat.head()
+
+10.       NLP – requires additional steps (punc/stopwords/tokenize/stem/vectorise etc)
 
 #### Models
 1.       X and Y and Test/train split (include linear, logistic, KNN, decision tree classifier, SVM, NLP, (No test train split required for K-means/PCA/recommender systems)
-2.       Normalise data
-3.       Create model
-4.       Fit model to training data (train data)
-5.       Save model
-6.       Evaluate – metrics and matrix (classification report) / plot loss vs val-loss / MSE, MAE, RMSE
+         
+         KNN
+         - from sklearn.model_selection import train_test_split
+           x = df_feat   # or use normal method of listing all cols
+           y = df['TARGET CLASS']
+           X_train, X_test, y_train, y_test = train_test_split(scaled_features,df['TARGET CLASS'], test_size=0.30)
+         - from sklearn.neighbors import KNeighborsClassifier
+           knn = KNeighborsClassifier(n_neighbors=1)
+           knn.fit(X_train,y_train)
+           pred = knn.predict(X_test)
+
+3.       Normalise data
+4.       Create model
+5.       Fit model to training data (train data)
+6.       Save model
+7.       Evaluate – metrics and matrix (classification report) / plot loss vs val-loss / MSE, MAE, RMSE
 
 ·         K-value (plot, choose value, retrain)
 
