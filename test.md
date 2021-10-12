@@ -1,9 +1,9 @@
 
-|<img width=75/>|... <img width=725/>|
+|<img width=75/>|.. <img width=725/>|
 |---|---|
-|Detail|...|
+|Detail|..|
 |Python|<br>|
-|Example|...|
+|Example|..|
 
 
 
