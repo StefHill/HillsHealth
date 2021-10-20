@@ -1,4 +1,4 @@
-|<img width=75/>|Geometric Probability Model (how many trials until we get a success) <img width=725/>|
+|<img width=75/>|.. <img width=725/>|
 |---|---|
 |Detail|..|
 |Example|..|
@@ -6,7 +6,7 @@
 
 
 
-Bolierplate
+Boilerplate
 
 |<img width=75/>|.. <img width=725/>|
 |---|---|
