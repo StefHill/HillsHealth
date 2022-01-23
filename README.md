@@ -1,10 +1,17 @@
-* [Home](https://github.com/StefHill/HillsHealth.org/wiki)
 * [1. Architectural Definition](https://github.com/StefHill/HillsHealth.org/wiki/1.-Architectural-Definition)
 * [2. Scope Definition](https://github.com/StefHill/HillsHealth.org/wiki/2.-Scope-Definition)
 * [3. Requirements Definition](https://github.com/StefHill/HillsHealth.org/wiki/3.-Requirements-Definition)
 * [4. Solution Definition](https://github.com/StefHill/HillsHealth.org/wiki/4.-Solution-Definition)
 
+**Supporting Docs**
 
+* [Pipeline](https://github.com/StefHill/HillsHealth.org/wiki/a.-Pipeline)
+* [Statistics - Data 1](https://github.com/StefHill/HillsHealth/wiki/d.-Statistics-(Analysing-Data))
+* [Statistics - Medical](https://github.com/StefHill/HillsHealth/wiki/e.-Statistics-Medical)
+* [Statistics - Time Series](https://github.com/StefHill/HillsHealth/wiki/e1.-Statistics-Time-Series)
+* [Data Science](https://github.com/StefHill/HillsHealth.org/wiki/b.-Data-Science)
+* [NLP](https://github.com/StefHill/HillsHealth.org/wiki/c.-NLP-Systematic-Reviews)
+* [GP Data Wales](https://github.com/StefHill/HillsHealth/wiki/f.-Data-GP-Wales-Prescription-Data)
 
 _Medical journals have many problems and need reform.  They are overinfluenced by the pharmaceutical industry, too fond of the mass media, and yet neglectful of patients.  The research they contain is hard to interpret and prone to bias, and peer review, the process at the heart of journals and all of science, is deeply flawed._  
 
