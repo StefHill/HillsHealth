@@ -7,6 +7,7 @@
 
 * [Pipeline](https://github.com/StefHill/HillsHealth.org/wiki/a.-Pipeline)
 * [Statistics - Data 1](https://github.com/StefHill/HillsHealth/wiki/d.-Statistics-(Analysing-Data))
+* [Statistics - Data 2](https://github.com/StefHill/HillsHealth/wiki/d1.-Statistics-(estimation-and-goodness-of-fit))
 * [Statistics - Medical](https://github.com/StefHill/HillsHealth/wiki/e.-Statistics-Medical)
 * [Statistics - Time Series](https://github.com/StefHill/HillsHealth/wiki/e1.-Statistics-Time-Series)
 * [Data Science](https://github.com/StefHill/HillsHealth.org/wiki/b.-Data-Science)
