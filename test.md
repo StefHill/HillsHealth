@@ -2,7 +2,7 @@
 |---|---|
 |Detail|..|
 |Example|**.**<br>|
-|Code|**.**<br> **.**<br> <br><br><br>|
+|Code|**.**<br> <br><br><br>|
 
 
 
