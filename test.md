@@ -6,7 +6,7 @@
 
 
 
-Boilerplate
+Boilerplate (pdf text 105%)
 
 |<img width=75/>|.. <img width=725/>|
 |---|---|
