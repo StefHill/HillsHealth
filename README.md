@@ -10,6 +10,7 @@
 * [Statistics - Data 2](https://github.com/StefHill/HillsHealth/wiki/d1.-Statistics-(estimation-and-goodness-of-fit))
 * [Statistics - Medical](https://github.com/StefHill/HillsHealth/wiki/e.-Statistics-Medical)
 * [Statistics - Time Series](https://github.com/StefHill/HillsHealth/wiki/e1.-Statistics-Time-Series)
+* [Statistics - Multivariate Analysis](https://github.com/StefHill/HillsHealth/wiki/e2.-Statistics-Multivariate-Analysis)
 * [Data Science](https://github.com/StefHill/HillsHealth.org/wiki/b.-Data-Science)
 * [NLP](https://github.com/StefHill/HillsHealth.org/wiki/c.-NLP-Systematic-Reviews)
 * [GP Data Wales](https://github.com/StefHill/HillsHealth/wiki/f.-Data-GP-Wales-Prescription-Data)
