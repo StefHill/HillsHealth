@@ -6,7 +6,7 @@
 
 
 
-Boilerplate (pdf text 105%, one box per section of a chapter <chapter, section>)
+Boilerplate (pdf text 105%, one box per section of a chapter <book, chapter, section>)
 
 |<img width=75/>|.. <img width=725/>|
 |---|---|
